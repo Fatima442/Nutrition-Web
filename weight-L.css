@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(227, 217, 217, 0.649);
+  }
+
+h1{
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 60px;
+    text-shadow: 0px 0px 13px;
+}
+p{
+    font-size: 30px;
+    font-family: initial;
+}
+  
+.box1{
+    width: 30%; /* Set width as per your video dimensions */
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px;
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 50px;
+}
+section { 
+    background-color: #fff;
+    box-shadow: 0px 0px 10px;
+    border-radius: 10px;
+    margin: 30px;
+    padding: 30px;
+    text-align: center;
+}
+  
+video {
+    width: 100%;
+    height: auto;
+}
+@media (max-width : 600px) {
+    h1{
+        text-align: center;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 30px;
+        text-shadow: 0px 0px 8px;
+    }
+    p{
+        font-size: 20px;
+        font-family: initial;
+        text-align: left;
+    }
+    .box1{
+        width: 80%; /* Set width as per your video dimensions */
+        margin-top: 50px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 0px 5px 5px;
+        display: inline-block;
+        text-align: center;
+        margin: 10px;
+        margin-bottom: 50px;
+    }
+    section { 
+        background-color: #fff;
+        box-shadow: 0px 0px 10px;
+        border-radius: 10px;
+        margin: 10px;
+        padding: 30px;
+        text-align: center;
+    }
+    iframe{
+        width: 100%;
+    }
+
+}

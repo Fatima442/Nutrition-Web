@@ -1,0 +1,105 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(img.jpg);
+    background-size: 100% 100%;
+}
+
+.login-container {
+    background-color: rgba(97, 89, 89, 0.142);
+    padding: 20px 90px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.login-form h2 {
+    margin-bottom: 30px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+.form-group {
+    margin-bottom: 40px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.form-group label{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 15px;
+}
+.form-group input[type="checkbox"] {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.form-group button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-group button:hover {
+    background-color: #0056b3;
+}
+
+p {
+    text-align: center;
+    font-size: 15px;
+    color: #ccc;
+}
+
+p a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+@media (max-width:320px){
+    .login-form h2 {
+        margin-bottom: 30px;
+        text-align: center;
+        color: #fff;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+    }
+    body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-size: 100% 100%;
+        }
+        
+    
+}

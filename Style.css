@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+   }
+
+   .logo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+   }
+   
+   .nav {
+    background-color: #8a500e;
+    color: white;
+    padding: 10px;
+   }   
+   
+   .nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+   }
+   
+   .nav ul li {
+    display: inline;
+    margin-right: 10px;
+   }
+   
+   .nav ul li a {
+    color: rgba(219, 118, 23, 0.418);
+    text-decoration: none;
+   }
+   
+   .section {
+    margin: 20px;
+   }
+   
+   .form {
+    margin-top: 20px;
+   }
+   /* Footer */
+footer {
+    background-color: #44c767;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #44c767;
+    border-color: #44c767;
+}
+
+.btn-primary:hover {
+    background-color: #36a64f; /* Darker shade for hover */
+    border-color: #36a64f;
+}
+   .carousel-item {
+    height: fit-content; 
+    /* Adjust the height as needed */
+   }
+   .carousel-caption {
+    color: black;
+
+   }
+
+   .contact-us {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #e44d26;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #9eda3d;
+}
+   
+   /* Styles for exercises section */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.exercise {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.exercise img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.exercise h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.exercise p {
+    margin-bottom: 15px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
